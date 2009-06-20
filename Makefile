@@ -1,5 +1,5 @@
 name := mintty
-version := $(shell printf "svn-0.4-r%u" `svn info | grep Revision | sed "s/Revision: //"`)
+version := 0.4.1
 da_version := 401
 
 exe := $(name).exe
